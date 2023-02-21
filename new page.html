@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage web</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt=""> </a>
+            <DIV class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <UL>
+                    <li> <a href="">HOME </a></li>
+                    <li> <a href="">ABOUT </a></li>
+                    <li> <a href="">COURSE</a></li>
+                    <li> <a href="">BLOG </a></li>
+                    <li> <a href="">CONTACT </a></li>       
+                </UL>
+            </DIV>
+            <i class="fa fa-bars" onclick="soMenw()"></i>
+        </nav>
+        <div class="text-box"> 
+            <h1> World Best University</h1>
+            <p>Making website is now one of the easiest thing in the world.
+                 you just need to learn the css, <br> javascript and html and you are good to go.</p>
+                 <a href=""class="hero-btn">Visit Us To Know More</a>
+
+        </div>
+
+
+
+    </section>
+
+    <script>
+        // java script for tongle menu
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right ="0";
+        }
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right ="-200px";
+
+        }
+
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        /* body{
+            background-image:url(../images/running.jpg);
+            background-repeat: no-repeat;
+        
+            text-align: center;
+            color: chocolate;
+
+        }
+        @media screen and ( max-width: 800px) {
+            body{
+                background-color:  aquamarine;
+                background-repeat: repeat;
+
+            }
+            
+        } */
+        #abc{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            
+            animation-name: def;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+
+            
+
+
+        }
+
+
+        @keyframes def {
+            0% {
+                background-color: blue;
+                left: 0px;
+                right: 0px;
+            }
+            25% {
+                background-color: cadetblue;
+                left: 200px;
+                right: 200px;
+            }
+            50% {
+                background-color: chocolate;
+                left: 0px;
+                right: 200px;
+            }
+            100% {
+                background-color: brown;
+                left:0px;
+                right: 0px;
+
+        }
+    }
+    marquee{
+        background-color: red;
+        color: darkblue;
+        border: 5px;
+    }
+
+
+        
+            
+            
+        
+    </style>
+
+</head>
+<body>
+    <marquee behavior="" direction="ltr"> this is kalyan </marquee>
+    <img id="abc" src="../images/robot.jpg" alt="">
+    
+    <!-- <div class="info"> my name is kalyan </div>
+    <marquee behavior="background-color" direction="right"> KALYAN</marquee> -->
+</body>
+</html>
